@@ -59,7 +59,6 @@ list(APPEND ep
     libbs2b
     openssl
     libsrt
-    libarchive
     highway
     libjxl
     uavs3d
