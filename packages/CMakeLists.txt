@@ -37,7 +37,6 @@ list(APPEND ep
     nvcodec-headers
     aom
     xxhash
-    dav1d
     libwebp
     highway
     libjxl
@@ -56,7 +55,6 @@ list(APPEND ep
     shaderc
     glad
     fast_float
-    svtav1
     libplacebo
     libva
     libsixel

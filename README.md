@@ -189,7 +189,6 @@ to update flags which will pass on gcc, g++ and etc.
     - nvcodec-headers
     - libvpl
     - aom
-    - dav1d
     - libplacebo (with glad, fast_float, xxhash)
     - fontconfig
     - libjxl (with brotli, highway)
@@ -197,7 +196,6 @@ to update flags which will pass on gcc, g++ and etc.
     - davs2
     - libsixel
     - libva
-    - svtav1
     - zlib (zlib-ng)
     - zstd
     - expat
