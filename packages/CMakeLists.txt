@@ -40,8 +40,6 @@ list(APPEND ep
     libwebp
     highway
     libjxl
-    uavs3d
-    davs2
     angle-headers
     spirv-headers
     spirv-tools

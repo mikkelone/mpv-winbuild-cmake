@@ -22,8 +22,6 @@ ExternalProject_Add(ffmpeg
         shaderc
         libplacebo
         aom
-        ${ffmpeg_uavs3d}
-        ${ffmpeg_davs2}
         rubberband
         libva
         openal-soft
@@ -69,8 +67,6 @@ ExternalProject_Add(ffmpeg
         --enable-libaom
         --disable-libsvtav1
         --disable-libdav1d
-        ${ffmpeg_davs2_cmd}
-        ${ffmpeg_uavs3d_cmd}
         --disable-libxvid
         --enable-libzimg
         --disable-openssl
