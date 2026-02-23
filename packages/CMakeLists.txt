@@ -29,7 +29,6 @@ list(APPEND ep
     brotli
     freetype2
     harfbuzz
-    libsoxr
     graphengine
     libzimg
     fontconfig
