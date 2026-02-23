@@ -213,7 +213,6 @@ to update flags which will pass on gcc, g++ and etc.
     - libva
     - libzvbi
     - svtav1
-    - libaribcaption
     - zlib (zlib-ng)
     - zstd
     - expat
