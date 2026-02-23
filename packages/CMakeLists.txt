@@ -18,7 +18,6 @@ list(APPEND ep
     opus-dnn
     opus
     speex
-    libmodplug
     libvpx
     xvidcore
     libpng
