@@ -4,7 +4,6 @@ ExternalProject_Add(mpv
         ffmpeg
         fribidi
         lcms2
-        libarchive
         libass
         libiconv
         libjpeg
