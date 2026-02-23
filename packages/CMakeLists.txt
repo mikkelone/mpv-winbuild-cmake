@@ -41,7 +41,6 @@ list(APPEND ep
     dav1d
     libwebp
     openssl
-    libsrt
     highway
     libjxl
     uavs3d

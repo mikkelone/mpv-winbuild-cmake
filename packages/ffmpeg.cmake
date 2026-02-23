@@ -6,7 +6,6 @@ ExternalProject_Add(ffmpeg
         lame
         lcms2
         openssl
-        libsrt
         libass
         libpng
         libvpx
@@ -81,7 +80,7 @@ ExternalProject_Add(ffmpeg
         --disable-libxml2
         --disable-libmysofa
         --disable-libssh
-        --enable-libsrt
+        --disable-libsrt
         --enable-libvpl
         --enable-libjxl
         --enable-libplacebo
