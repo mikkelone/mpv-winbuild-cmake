@@ -42,7 +42,6 @@ list(APPEND ep
     xxhash
     dav1d
     libwebp
-    libbs2b
     openssl
     libsrt
     highway
