@@ -37,7 +37,6 @@ list(APPEND ep
     fontconfig
     libunibreak
     libass
-    subrandr
     libvpl
     amf-headers
     nvcodec-headers
