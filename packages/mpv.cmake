@@ -28,7 +28,6 @@ ExternalProject_Add(mpv
         --cross-file=${MESON_CROSS}
         --default-library=shared
         --prefer-static
-        -Ddebug=true
         -Db_ndebug=true
         -Doptimization=3
         -Db_lto=true
