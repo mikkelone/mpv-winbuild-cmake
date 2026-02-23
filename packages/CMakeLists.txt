@@ -54,7 +54,6 @@ list(APPEND ep
     xxhash
     dav1d
     libwebp
-    vapoursynth
     libbs2b
     openssl
     libsrt

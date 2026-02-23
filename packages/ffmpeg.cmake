@@ -38,7 +38,6 @@ ExternalProject_Add(ffmpeg
         aom
         svtav1
         dav1d
-        vapoursynth
         ${ffmpeg_uavs3d}
         ${ffmpeg_davs2}
         rubberband
@@ -60,7 +59,7 @@ ExternalProject_Add(ffmpeg
         --enable-gpl
         --enable-version3
         --disable-avisynth
-        --enable-vapoursynth
+        --disable-vapoursynth
         --enable-libass
         --enable-libbluray
         --enable-libdvdnav

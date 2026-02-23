@@ -63,7 +63,7 @@ ExternalProject_Add(mpv-release
         -Dopenal=enabled
         -Dspirv-cross=enabled
         -Dvulkan=enabled
-        -Dvapoursynth=enabled
+        -Dvapoursynth=disabled
         -Dsubrandr=enabled
         ${mpv_gl}
         -Dc_args='-Wno-error=int-conversion'
