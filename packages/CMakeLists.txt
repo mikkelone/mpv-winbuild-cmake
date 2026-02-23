@@ -40,7 +40,6 @@ list(APPEND ep
     xxhash
     dav1d
     libwebp
-    openssl
     highway
     libjxl
     uavs3d

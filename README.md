@@ -201,7 +201,6 @@ to update flags which will pass on gcc, g++ and etc.
     - zlib (zlib-ng)
     - zstd
     - expat
-    - openssl
     - libsdl2
     - vorbis
     - ogg
