@@ -31,7 +31,6 @@ ExternalProject_Add(mpv-release
         shaderc
         libplacebo
         spirv-cross
-        vapoursynth
         libsdl2
     URL ${LINK}
     SOURCE_DIR ${SOURCE_LOCATION}
