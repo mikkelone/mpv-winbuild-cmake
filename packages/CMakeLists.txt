@@ -73,7 +73,6 @@ list(APPEND ep
     libopusenc
     opus-tools
     termcap
-    readline
     cryptopp
     sqlite
     libuv
@@ -94,7 +93,7 @@ list(LENGTH ep ep_length)
 message(STATUS "Parsing ${ep_length} packages")
 
 # Exclude packages which dont depend on mpv when update
-list(APPEND removed "flac" "opusfile" "libopusenc" "opus-tools" "termcap" "readline" "cryptopp" "sqlite" "libuv" "libsixel" "curl" "libressl" "mbedtls" "gmp")
+list(APPEND removed "flac" "opusfile" "libopusenc" "opus-tools" "termcap" "cryptopp" "sqlite" "libuv" "libsixel" "curl" "libressl" "mbedtls" "gmp")
 list(REMOVE_ITEM repo ${removed})
 list(REMOVE_ITEM ep ${removed})
 list(TRANSFORM repo APPEND "-force-update" OUTPUT_VARIABLE update)
