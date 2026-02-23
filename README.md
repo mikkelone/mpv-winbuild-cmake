@@ -173,7 +173,6 @@ to update flags which will pass on gcc, g++ and etc.
     - libzimg (with graphengine)
     - libunibreak
     - libass
-    - libmysofa
     - lcms2
     - lame
     - harfbuzz

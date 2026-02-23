@@ -12,7 +12,6 @@ ExternalProject_Add(ffmpeg
         libvpx
         libwebp
         libzimg
-        libmysofa
         fontconfig
         harfbuzz
         opus
@@ -81,7 +80,7 @@ ExternalProject_Add(ffmpeg
         --enable-libzimg
         --enable-openssl
         --enable-libxml2
-        --enable-libmysofa
+        --disable-libmysofa
         --disable-libssh
         --enable-libsrt
         --enable-libvpl
