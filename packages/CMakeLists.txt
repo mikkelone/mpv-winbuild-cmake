@@ -58,7 +58,6 @@ list(APPEND ep
     vapoursynth
     libbs2b
     openssl
-    libssh
     libsrt
     libarchive
     highway
