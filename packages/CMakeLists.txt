@@ -21,7 +21,6 @@ list(APPEND ep
     libmodplug
     libvpx
     xvidcore
-    game-music-emu
     libpng
     x264
     x265
