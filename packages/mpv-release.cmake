@@ -53,7 +53,7 @@ ExternalProject_Add(mpv-release
         -Djavascript=disabled
         -Dsdl2-gamepad=enabled
         -Dlibarchive=disabled
-        -Dlibbluray=enabled
+        -Dlibbluray=disabled
         -Ddvdnav=disabled
         -Duchardet=enabled
         -Drubberband=enabled
