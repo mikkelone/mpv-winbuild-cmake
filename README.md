@@ -207,7 +207,6 @@ to update flags which will pass on gcc, g++ and etc.
     - davs2
     - libsixel
     - libva
-    - libzvbi
     - svtav1
     - zlib (zlib-ng)
     - zstd
