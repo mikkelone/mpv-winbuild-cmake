@@ -49,7 +49,6 @@ list(APPEND ep
     subrandr
     libvpl
     amf-headers
-    avisynth-headers
     nvcodec-headers
     libmysofa
     aom

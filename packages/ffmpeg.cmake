@@ -1,7 +1,6 @@
 ExternalProject_Add(ffmpeg
     DEPENDS
         amf-headers
-        avisynth-headers
         ${nvcodec_headers}
         bzip2
         lame
@@ -61,7 +60,7 @@ ExternalProject_Add(ffmpeg
         --enable-runtime-cpudetect
         --enable-gpl
         --enable-version3
-        --enable-avisynth
+        --disable-avisynth
         --enable-vapoursynth
         --enable-libass
         --enable-libbluray
