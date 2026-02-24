@@ -23,6 +23,7 @@ list(APPEND ep
     luajit
     fribidi
     expat
+    brotli
     freetype2
     harfbuzz
     graphengine
