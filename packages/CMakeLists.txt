@@ -24,7 +24,6 @@ list(APPEND ep
     luajit
     fribidi
     expat
-    brotli
     freetype2
     harfbuzz
     graphengine
@@ -38,8 +37,6 @@ list(APPEND ep
     aom
     xxhash
     libwebp
-    highway
-    libjxl
     angle-headers
     spirv-headers
     spirv-tools

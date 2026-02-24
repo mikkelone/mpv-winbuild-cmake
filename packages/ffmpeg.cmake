@@ -18,7 +18,6 @@ ExternalProject_Add(ffmpeg
         ${ffmpeg_x265}
         libvpl
         libopenmpt
-        libjxl
         shaderc
         libplacebo
         aom
@@ -75,7 +74,7 @@ ExternalProject_Add(ffmpeg
         --disable-libssh
         --disable-libsrt
         --enable-libvpl
-        --enable-libjxl
+        --disable-libjxl
         --enable-libplacebo
         --enable-libshaderc
         --disable-libzvbi

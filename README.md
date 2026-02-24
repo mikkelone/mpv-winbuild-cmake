@@ -191,7 +191,6 @@ to update flags which will pass on gcc, g++ and etc.
     - aom
     - libplacebo (with glad, fast_float, xxhash)
     - fontconfig
-    - libjxl (with brotli, highway)
     - libsixel
     - libva
     - zlib (zlib-ng)
